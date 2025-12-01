@@ -3,6 +3,5 @@ function copyIP() {
     ipField.select();
     ipField.setSelectionRange(0, 999);
     navigator.clipboard.writeText(ipField.value);
-
-    alert("Server IP copied to clipboard!");
+    alert("Server IP copied!");
 }
